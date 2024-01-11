@@ -22,10 +22,7 @@ This model is far from perfect, and I already have so many ideas for how I can i
 If you are interested in this project and would like see future iterations and other stuff I'm working on, please feel free to follow my on LinkedIn: https://www.linkedin.com/in/jmtunley/
 You can also follow our blog, Whistle Labs, at https://www.linkedin.com/company/whistlelabs/. We just started creating content, but will be providing advanced statistics on NFL Football and MLS Soccer.
 
-
-
-
-
+HUGE Shoutout to everyone at BrainStation and BrainStation NYC for teaching me the skills that allowed me to make this passion into a career! I could not have done this without their mentoring.
 
 # Features
 
