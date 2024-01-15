@@ -58,30 +58,3 @@ You can also follow our blog, Whistle Labs, at https://www.linkedin.com/company/
 
 HUGE Shoutout to everyone at BrainStation and BrainStation NYC for teaching me the skills that allowed me to make this passion into a career! I could not have done this without their mentoring.
 
-# Features
-
-'SeasonID', 'PPG', 'Tot_TDs_PG', '1st_Downs_PG', 'Rush_1st_Downs_PG',
-       'Pass_1st_Downs_PG', 'OFF_1st_by_pen_PG', '3rd_Conv_Rate',
-       '4th_Conv_Rate', 'Pass_Comp_Rate', 'Pass_Yds_PG',
-       'Pass_Yds_Per_Attempt', 'Pass_Tds_PG', 'Off_Int_PG',
-       'OFF_Sacks-Yards Lost', 'Rush_Att_PG', 'Yds_Per_Rush', 'Rush_Yds_PG',
-       'Rush_Tds_PG', 'Off_Plays_PG', 'Tot_Yds_PG', 'OFF_Kickoffs: Total',
-       'Avg_K_Return_Yds', 'OFF_Punt: Total', 'Avg_P_Return_Yds',
-       'OFF_INT: Total', 'Avg_I_Return_Yds', 'Yds_Per_Punt',
-       'OFF_Punt: Total Yards', 'OFF_FG: Good-Attempts', 'Touchback_Rate',
-       'Total_Penalties-Yds', 'Avg_Pen_Yds_PG', 'Avg_TOP', 'OFF_Fumbles-Lost',
-       'Games', 'Year', 'DEF_PPG_Against', 'DEF_Tot_Tds_PG_Against',
-       'DEF_1st_Downs_PG_Against', 'DEF_Rush_1st_Downs_PG_Against',
-       'DEF_Pass_1st_Downs_PG_Against', 'DEF_1st_by_pen_PG',
-       'DEF_3rd_Conv_Rate', 'DEF_4th_Conv_Rate', 'DEF_Comp-Att',
-       'DEF_Pass_Yds_Per_Attempt', 'DEF_Pass_Yds_PG', 'DEF_Pass_Tds_PG',
-       'DEF_Int_PG', 'DEF_Sacks-Yards Lost', 'DEF_Rush_Att_PG',
-       'DEF_Yds_Per_Rush', 'DEF_Rush_Yds_PG', 'DEF_Rush_Tds_PG',
-       'DEF_Tot_Plays_PG', 'DEF_YPG_Against', 'DEF_Kickoffs: Total',
-       'DEF_Avg_K_Return_Yds', 'DEF_Punt: Total', 'DEF_Avg_P_Return_Yds',
-       'DEF_INT: Total', 'DEF_Avg_I_Return_Yds', 'DEF_Yds_Per_Punt_Against',
-       'DEF_Punt: Total Yards', 'DEF_FG: Good-Attempts', 'DEF_Touchback_Rate',
-       'DEF_Total_Penalties-Yds', 'DEF_Avg_Pen_Yds_PG', 'DEF_Avg_TOP',
-       'DEF_Fumbles-Lost'
-
-
