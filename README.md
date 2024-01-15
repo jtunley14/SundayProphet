@@ -5,7 +5,7 @@ Welcome to capstone project! The goal of this project is to predict the outcome 
 2. Spread
 3. Point Total (O/U line)
 
-## Project Overview
+### Project Overview
 
 I have 
 
@@ -17,7 +17,13 @@ Using NFL team data from ESPN (2004-2022), I trained a model to predict the outc
 
 **Tertiary audience**: Throughout this process, I found a lot of really interesting insights that would be beneficial for NFL analytics teams. Understanding what and how metrics directly influence expected points can help teams make decisions that can lead to wins in the long-run. Who would've thought that calling for a touchback increases your liklihood to score points?
 
-# Next Steps
+### Datasets
+
+### Methodology
+
+### Challenges
+
+### Next Steps
 
 This model is far from perfect, and I already have so many ideas for how I can improve it moving forward! 
 1. Because the model does not scrape from individual games and instead season-long statistics, it is difficult to determine the role that an injury or weather would play on expected points. In future versions of this project, I plan to include these types of insights so the model can get even more context before making a prediction.
