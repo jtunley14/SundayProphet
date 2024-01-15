@@ -5,9 +5,20 @@ Welcome to capstone project! The goal of this project is to predict the outcome 
 2. Spread
 3. Point Total (O/U line)
 
-### Project Overview
+## Project Overview
 
-I have 
+Sports have been my passion since the moment I was born. 
+
+I would wake up before school in elementary school to watch Sportscenter
+Summers and falls consisted of traveling up and down the east coast for lacrosse tournaments
+Blamed my dad for ruining our fantasy football team when I was 12 years old
+
+While sports analytics was something that I've always been interested in, it was never something I considered as a career, as I did not have the skills to turn into a reality. Chose this because I am passionate about it and want to combine the skills I am learning with a background that I am already very knowledgable in.
+With my background in business, I am able to easily understand how to take interesting insights and turn it into a money-making opportunity?
+
+While my term at BrainStation has come to an end and I have turned in my final submission, this is not the end for this project! When I began this project, I was new to the world of Data Science, and still learning what was and was not possible. After five months, I have so many new ideas for different approaches I can take in future iterations that will lead to improvements. I go over these at the end of this ReadMe, but feel free to follow along by following this page or my LinkedIn: https://www.linkedin.com/in/jmtunley/
+
+## Project Overview
 
 Using NFL team data from ESPN (2004-2022), I trained a model to predict the outcome of NFL football games. The model runs three separate regressions which determines an expected point total for each team, as well as both teams combined. These outputs will be compared to determine who will score more points (the winner), the difference between these expected totals (the spread), and the sum of the point totals (the expected points scored)
 
@@ -17,13 +28,13 @@ Using NFL team data from ESPN (2004-2022), I trained a model to predict the outc
 
 **Tertiary audience**: Throughout this process, I found a lot of really interesting insights that would be beneficial for NFL analytics teams. Understanding what and how metrics directly influence expected points can help teams make decisions that can lead to wins in the long-run. Who would've thought that calling for a touchback increases your liklihood to score points?
 
-### Datasets
+## Datasets
 
-### Methodology
+## Methodology
 
 ### Challenges
 
-### Next Steps
+## Next Steps
 
 This model is far from perfect, and I already have so many ideas for how I can improve it moving forward! 
 1. Because the model does not scrape from individual games and instead season-long statistics, it is difficult to determine the role that an injury or weather would play on expected points. In future versions of this project, I plan to include these types of insights so the model can get even more context before making a prediction.
