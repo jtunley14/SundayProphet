@@ -36,10 +36,16 @@ One of the most difficult challenges in this project was getting access to all o
 The data scraped for this project is publicly-available data on ESPN. It can be accesses with the link below:
 https://www.espn.com/nfl/team/stats/_/type/team/name/nyj
 
+## Features and Methodology
+All of the features used in the first iteration of this model can be viewed through the link above, but I will provide a brief summary:
 
-## Methodology
+Offensive metrics focused on total offensive performance, rushing metrics, passing metrics, turnover statistics and converstion rate on 3rd down and the redzone. I also included some important miscellaneous statistics such as time of possession, turnover ratio, penalties and field goals per game. While defensive statistics were not displayed on the same website in the same way, ESPN does show how opposing teams performed in those same metrics against that team. I was able to reverse-engineer this to basically give the defense statitics for that particular team. After scraping, I was able to manipulate all of this information into a table, in which a team in a particular season is represented by a single row, with columns containing all of these statitics. 
 
-### Challenges
+The next step was importing the results of historical games into a dataset that compared teams in each of these statitics. This process can be shown in the Game_Results_data, as well as the beginning of the TotalScorePredictor Notebook. Using a combinations function, I created matchups of every possible the set of teams with each of their statistics, then imported the results of those games where a game was actually played. Then I could remove all matchups where the game wasn't played, do my train / test split, and start honing my model!
+
+While I wont go through every feature one-by-one, here is a list of all of them below
+
+'SeasonID', 'Tot_TDs_PG', '1st_Downs_PG', 'Rush_1st_Downs_PG', 'Pass_1st_Downs_PG', 'OFF_1st_by_pen_PG', '3rd_Conv_Rate', '4th_Conv_Rate', 'Pass_Comp_Rate', 'Pass_Yds_PG', 'Pass_Yds_Per_Attempt', 'Pass_Tds_PG', 'Off_Int_PG', 'OFF_Sacks-Yards Lost', 'Rush_Att_PG', 'Yds_Per_Rush', 'Rush_Yds_PG', 'Rush_Tds_PG', 'Off_Plays_PG', 'Tot_Yds_PG', 'OFF_Kickoffs: Total', 'Avg_K_Return_Yds', 'OFF_Punt: Total', 'Avg_P_Return_Yds', 'OFF_INT: Total', 'Avg_I_Return_Yds', 'Yds_Per_Punt', 'OFF_Punt: Total Yards', 'OFF_FG: Good-Attempts', 'Touchback_Rate', 'Total_Penalties-Yds', 'Avg_Pen_Yds_PG', 'Avg_TOP', 'OFF_Fumbles-Lost', 'Games', 'Year', 'DEF_PPG_Against', 'DEF_Tot_Tds_PG_Against', 'DEF_1st_Downs_PG_Against', 'DEF_Rush_1st_Downs_PG_Against', 'DEF_Pass_1st_Downs_PG_Against', 'DEF_1st_by_pen_PG', 'DEF_3rd_Conv_Rate', 'DEF_4th_Conv_Rate', 'DEF_Comp-Att', 'DEF_Pass_Yds_Per_Attempt', 'DEF_Pass_Yds_PG', 'DEF_Pass_Tds_PG', 'DEF_Int_PG', 'DEF_Sacks-Yards Lost', 'DEF_Rush_Att_PG', 'DEF_Yds_Per_Rush', 'DEF_Rush_Yds_PG', 'DEF_Rush_Tds_PG', 'DEF_Tot_Plays_PG', 'DEF_YPG_Against', 'DEF_Kickoffs: Total', 'DEF_Avg_K_Return_Yds', 'DEF_Punt: Total', 'DEF_Avg_P_Return_Yds', 'DEF_INT: Total', 'DEF_Avg_I_Return_Yds', 'DEF_Yds_Per_Punt_Against', 'DEF_Punt: Total Yards', 'DEF_FG: Good-Attempts', 'DEF_Touchback_Rate', 'DEF_Total_Penalties-Yds', 'DEF_Avg_Pen_Yds_PG', 'DEF_Avg_TOP', 'DEF_Fumbles-Lost'
 
 ## Next Steps
 
