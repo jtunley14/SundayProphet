@@ -1,11 +1,13 @@
 # SundayProphet NFL Game Predictor
 
-##Project Overview
-
 Welcome to capstone project! The goal of this project is to predict the outcome of NFL football games in 3 major metrics:
 1. Winner
 2. Spread
 3. Point Total (O/U line)
+
+## Project Overview
+
+I have 
 
 Using NFL team data from ESPN (2004-2022), I trained a model to predict the outcome of NFL football games. The model runs three separate regressions which determines an expected point total for each team, as well as both teams combined. These outputs will be compared to determine who will score more points (the winner), the difference between these expected totals (the spread), and the sum of the point totals (the expected points scored)
 
