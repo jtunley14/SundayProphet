@@ -1,17 +1,18 @@
-# SundayProphet NFL Game Predictor
+# SundayProphetAI: NFL Score Predictor
 
-Welcome to capstone project! The goal of this project is to predict the outcome of NFL football games in 3 major metrics:
+Welcome to my capstone project! The goal of this project is to predict the outcome of NFL football games in 3 major metrics:
 1. Winner
 2. Spread
 3. Point Total (O/U line)
 
-## Project Overview
+## Background and Motivation
 
 Sports have been my passion since the moment I was born. 
 
 I would wake up before school in elementary school to watch Sportscenter
 Summers and falls consisted of traveling up and down the east coast for lacrosse tournaments
 Blamed my dad for ruining our fantasy football team when I was 12 years old
+Jets fan since birth
 
 While sports analytics was something that I've always been interested in, it was never something I considered as a career, as I did not have the skills to turn into a reality. Chose this because I am passionate about it and want to combine the skills I am learning with a background that I am already very knowledgable in.
 With my background in business, I am able to easily understand how to take interesting insights and turn it into a money-making opportunity?
@@ -22,13 +23,19 @@ While my term at BrainStation has come to an end and I have turned in my final s
 
 Using NFL team data from ESPN (2004-2022), I trained a model to predict the outcome of NFL football games. The model runs three separate regressions which determines an expected point total for each team, as well as both teams combined. These outputs will be compared to determine who will score more points (the winner), the difference between these expected totals (the spread), and the sum of the point totals (the expected points scored)
 
-**Primary audience**: Online sportsbooks like DraftKings, Caesars, FanDual and BetMGM. All these companies offer live odds to bet on the spread for NFL games.  Single plays in a game can completely change the momentum and probability of victory for one team or another, and sportsbooks need to have good algorithms that can analyze game situation quickly and effectively to give themselves an advantage over people watching the game live. People react to what they see, so the algorithm needs to be able to immediately make predictions play-by-play and possession-by-possession. My goal is to use historical data of likelihood of victory for teams in certain scenarios.
+**Primary audience**: Online sportsbooks like DraftKings, Caesars, FanDual and BetMGM. All these companies offer live odds to bet on the spread of NFL football games.  Single plays in a game can completely change the momentum and probability of victory for one team or another, and sportsbooks need to have good algorithms that can analyze game situation quickly and effectively to give themselves an advantage over people watching the game live. People react to what they see, so the algorithm needs to be able to immediately make predictions play-by-play and possession-by-possession. My goal is to use historical data of likelihood of victory for teams in certain scenarios.
 
-**Secondary audience**: Users that want to get ahead of the system. They could use this model to the compare their own personal spreads to those that the book has already set. This will help them find advantageous bets, as well as provide context for betting on online sportsbooks.
+**Secondary audience**: Users that want to get ahead of the system. They could use this model to the compare their own personal spreads to those that the book has already set. This will help them find advantageous bets, as well as provide context for betting on official lines.
 
 **Tertiary audience**: Throughout this process, I found a lot of really interesting insights that would be beneficial for NFL analytics teams. Understanding what and how metrics directly influence expected points can help teams make decisions that can lead to wins in the long-run. Who would've thought that calling for a touchback increases your liklihood to score points?
+- For some of these interesting insights, check out my Demo Day Powerpoint slides!
 
 ## Datasets
+One of the most difficult challenges in this project was getting access to all of the data I needed. While I wanted to train on as many games as possible to ensure the model was as accurate as possible, a lot of the data collected in games today are more advanced than they were 20 years ago. Not only do I need all of the same features, but also in the same format, so that the model can be run for games this year. While official sportsbooks have very advanced data collection systems, they keep this data private (for obvious reasons). This severely limited my options. While the easy option (and the one I will be taking in future versions of this project) would have been to use an API, I wanted to challenge myself by scraping directly from ESPN and cleaning it. This process took two entire notebooks, and are titled Historical Data-Scraper and In-Season Data Scraper.
+
+The data scraped for this project is publicly-available data on ESPN. It can be accesses with the link below:
+https://www.espn.com/nfl/team/stats/_/type/team/name/nyj
+
 
 ## Methodology
 
