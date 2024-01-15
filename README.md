@@ -1,6 +1,8 @@
-# NFL Game Predictor
+# SundayProphet NFL Game Predictor
 
-Welcome to my repository for my capstone project! The goal of this project is to predict the outcome of NFL football games in 3 major metrics:
+##Project Overview
+
+Welcome to capstone project! The goal of this project is to predict the outcome of NFL football games in 3 major metrics:
 1. Winner
 2. Spread
 3. Point Total (O/U line)
